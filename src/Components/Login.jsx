@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from "./Footer";
 const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">

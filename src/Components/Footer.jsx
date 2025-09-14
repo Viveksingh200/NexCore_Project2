@@ -23,7 +23,10 @@ function Footer() {
   const accountLinks = ["Open an account", "Fund transfer", "60 day challenge"];
 
   return (
-    <footer className="bg-gray-50 border-t mt-10">
+    <>
+        
+    <footer className="bg-gray-50 mt-10">
+      <hr className="opacity-10"/>
       <div className="max-w-7xl mx-auto px-6 py-10">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -112,6 +115,8 @@ function Footer() {
         </div>
       </div>
     </footer>
+    </>
+
   );
 }
 

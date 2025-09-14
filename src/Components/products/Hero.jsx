@@ -2,8 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container mx-auto border-b border-b-gray-300 mb-10">
-      <div className="text-center mt-10 p-3">
+    <div className="container mx-auto mb-10">
+      <div className="text-center mt-30 p-3">
         <h1 className="text-4xl font-bold">Technology</h1>
         <h3 className="text-gray-500 mt-3 text-xl">
           Sleek, modern and intuitive trading platforms

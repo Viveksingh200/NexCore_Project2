@@ -2,8 +2,8 @@ import React from "react";
 import Footer from "./Footer";
 const Login = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="bg-gray-200 shadow-md rounded-lg p-8 w-full max-w-md">
+    <div className=" flex items-center justify-center bg-white min-h-screen bg-gray-50">
+      <div className="bg-gray-200 shadow-lg rounded-lg p-8 w-full max-w-md h-80 mt-14 items-center flex flex-col justify-center">
         <h2 className="text-2xl font-semibold text-center mb-6">
           Login to your account
         </h2>
@@ -12,13 +12,13 @@ const Login = () => {
           <input
             type="email"
             placeholder="Email Address"
-            className="w-full px-4 py-2 border rounded-md bg-white focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full px-4 py-2 rounded-md bg-white focus:ring-2 focus:ring-blue-500 outline-none"
           />
 
           <input
             type="password"
             placeholder="Enter Password"
-            className="w-full px-4 py-2 border rounded-md bg-white focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full px-4 py-2 rounded-md bg-white focus:ring-2 focus:ring-blue-500 outline-none"
           />
 
           <button
